@@ -1,0 +1,28 @@
+.accordian-container{
+    width: 60%;
+    margin-left:3%;
+    margin-right:3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.accordian-heading{
+    font-size: 33px;
+   text-align: left;
+   
+}
+.accordian-para{
+    font-size: 25px; 
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.accordian-icon{
+    font-size: 30px;
+    text-align: left;
+}
+.accordian-icons{
+    display: flex;
+    margin-top:1.5%;
+    margin-left:2%;
+}

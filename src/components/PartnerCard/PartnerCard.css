@@ -1,0 +1,41 @@
+.partner-card-container{
+    width: 90%;
+    border-radius: 25px;
+    margin:2%;
+    height: 400px;
+    background-color: lightgray;
+    text-align: center;
+
+}
+.partner-card-image{
+    width:50%;
+    height:120px;
+    margin-top: 2%;
+}
+.partner-card-para{
+    font-size: 24px;
+    font-family: "sans-serif";
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.partner-card-heading{
+    font-size: 35px;
+    font-family: "sans-serif";  
+    font-weight: 400;
+}
+.partner-card-bottom-con{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 2%; */
+    margin-left: 3%;
+    padding-left: 3%;
+    text-align: center;
+}
+.partner-card-btn{
+    width:140px;
+    height:40px;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: #ffc107;
+    /* margin-top: 2%; */
+}

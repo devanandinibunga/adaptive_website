@@ -1,0 +1,32 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+.contacts-card-container{
+    width: 600px;
+    height: 30%;
+    border-radius: 25px;
+    /* margin-left:2%; */
+    display: flex;
+    /* flex-direction:column; */
+    background-color: lightgray;
+    margin: 2%;
+}
+.contacts-card-icon{
+    width:200px;
+    height:30%;
+    border-radius: 25px;
+}
+.contacts-card-para{
+    font-size: 20px;
+    font-family: "sans-serif";
+    text-align: left;
+}
+.contacts-card-heading{
+    font-size: 40px;
+    font-family: "sans-serif";
+    text-align: left;
+}
+.contacts-card-side-con{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}

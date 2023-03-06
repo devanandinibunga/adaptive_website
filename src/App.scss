@@ -1,0 +1,738 @@
+@media (min-width:320px){
+    .icon{
+        font-size:23px;
+        // padding-top:1.3em;
+    }
+    .header-con{
+        width: 90%;
+    }
+    .header-row-left{
+       width:100%;
+        padding: 4em;
+       text-align: center;
+       .header-heading{
+            font-size: 2.5em;
+        }
+        .header-para{
+            font-size: 1.5em;
+        }
+        .header-btn{
+            font-weight: 500;
+            font-size: 1.3em;
+        }
+    }
+    .header-row-right{
+        width:100%;
+        padding: 4px;
+     }
+     .cards-left-con{
+        width:100%;
+        margin: 3%;
+        .cards-left-bottom-con{
+            align-items: center;
+        }
+        .cards-image{
+            padding:1em;
+        }
+        .cards-left-bottom-con{
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            padding: 3%;
+        }
+    }
+    .cards-right-con{
+        width:100%;
+        // margin-right: 2%;
+        margin-left: 2%;
+        // height:100%;
+        text-align: center;
+        .cards-right-top-con{      
+            // height: 50%;
+            margin-bottom: 2%;
+            align-items: center;
+        }
+        .cards-right-top-para{
+            font-size: 25px;
+            padding:0.7em;
+        }
+        
+    }   
+    .aboutus-heading{
+        font-size: 40px;
+    }
+    .aboutus-para{
+        font-size: 25px;
+    }
+    .features-heading{
+        text-align: center;
+        margin-left: 1em;
+    }
+    .features-card-container{
+        width:100%; 
+    }
+    .features-card-para1{
+        font-size: 20px;
+    }
+    .features-card-para2{
+        font-size: 17px;
+    }
+    .features-card-heading{
+        font-size: 25px;
+    }
+    .features-card-btn{
+        font-size: 15px;
+    }
+    .our-skills-main-container{
+        width: 100%;
+        .our-skills-container{
+            width: 100%;
+            margin: 1em;
+            .our-skills-caption{
+                font-size: 3em;
+                text-align: center;
+            }
+            .our-skills-description{
+                font-size: 1em;
+                text-align: center;
+                margin-top: 1em;
+            }
+        }
+        .progress-container{
+            width: 100%;
+            margin: 1em;
+            .skills-progress-caption{
+                font-size:1em ;
+            }
+        }
+    }
+    .team-heading{
+        font-size: 1.75em;
+        text-align: center;
+    }
+    .team-para{
+        font-size: 1em;
+        text-align: center;
+    }
+    .team-main-container{
+        width: 100%; 
+        .team-card-container{
+            width: 100%;
+            border-radius: 1.8em;
+            .team-card-para{
+                font-size: 1em;
+            }
+            .team-card-heading{
+                font-size: 1.4em;   
+            }
+            .team-card-btn{
+                font-size: 1.2em;
+            }
+        }    
+    }
+    .image-inside-bottom-con{
+        text-align: center;
+        .image-card-btn{
+            width: auto;
+            padding:0.5em 2em 0.5em 2em ;
+            border-radius: 2em;
+            font-size: 1em;
+            margin: 0.5em;
+            border: 3 solid black;
+        }
+    }
+    .partner-container{
+        .partner-card-container{
+            width:100%;
+            padding: 2em;
+            .partner-card-image{
+                width:50%;
+                margin-top: 2%;
+            }
+            .partner-card-para{
+                font-size: 20px;
+            }
+            .partner-card-heading{
+                font-size: 25px;
+            }
+            .partner-card-btn{
+                font-size:20px;
+            }
+        }
+    }
+    .subscribe-container{
+        width: 100%;
+        flex-direction: column;
+        margin-left: 0.5em;
+        .subscribe-input{
+            width:100%;
+        }
+        .subscribe-heading{
+            font-size: 2em;
+            padding-bottom: 2em;
+        }
+        .subscribe-btn{
+           font-size: 20px;
+        }
+    }
+    .contacts-heading{
+        text-align: center;
+        margin-left: 3%;
+        font-size: 2em;
+        font-weight: 400;
+    }
+    .contacts-para{
+        text-align: center;
+        margin-left: 3%;
+        font-size: 1em;
+        font-weight: 400;
+    }
+    .contacts-main-container{
+        width: 100%;
+        .contacts-card-container{
+            width:100%;
+            padding:1em;
+            .contacts-card-side-con{
+                width: 70%;
+                .contacts-card-heading{
+                    font-size: 1.5em;
+                }
+                .contacts-card-para{
+                    font-size: 1.2em;
+                }
+            }
+        }
+    }   
+}
+@media (min-width:768px){
+    .header-con{
+        width: 95%;
+    }
+    .header-row-left{
+        width:100%;
+        text-align: left;
+        padding: 8em;
+        .header-heading{
+            font-weight: 400;
+            font-size: 5rem;
+        }
+        .header-para{
+            font-size: 2.24rem;
+        }
+        .header-btn{
+            font-size: 1.5em;
+        }
+     }
+     .header-row-right{
+         width:100%;
+        .header-image{
+            // margin-top:3%;
+            justify-content: center;
+        }
+      }
+      .cards-left-con{
+        width: 100%;
+        margin: 1em;
+        .cards-left-heading{
+            font-size: 1.5rem;
+        }
+        .cards-left-bottom-left-btn1{
+            font-size: 25px;
+        }
+        .cards-left-bottom-left-btn2{
+            font-size: 25px;
+        }
+        .cards-left-bottom-left-btn{
+            font-size: 35px;
+        }
+    }
+    .cards-right-con{
+        width:100%;
+        margin-left: 2%;
+        text-align: center;
+        .cards-left-bottom-left-btn2{
+            font-size: 25px;
+        }
+        .cards-right-top-para{
+            font-size: 35px;
+            padding:0.7em;   
+        }
+    }  
+    .cards-left-bottom-con{
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+        justify-content: space-between;
+        .cards-left-bottom-left{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+        }
+    }
+    .aboutus-heading{
+        font-size: 50px;
+        text-align: left;
+    }
+    .aboutus-para{
+        font-size: 35px;
+        text-align: left;
+    }
+    .features-heading{
+        text-align: left;
+        margin-left: 1.3em;
+    }
+    .features-card-container{
+        width:100%;
+        // height: 100vh;
+        .features-card-image{
+            width:90%;
+        } 
+        .features-card-para1{
+            font-size: 30px;
+        }
+        .features-card-para2{
+            font-size: 22px;
+        }
+        .features-card-heading{
+            font-size: 40px;
+        }
+        .features-card-btn{
+            font-size: 20px;
+        }
+    }
+    .our-skills-main-container{
+        width: 100%;
+        .our-skills-container{
+            width: 100%;
+            margin: 2em;
+            .our-skills-caption{
+                font-size: 4.4em;
+                text-align: left;
+            }
+            .our-skills-description{
+                font-size: 1.5em;
+                text-align: left;
+                margin-top: 1em;
+            }
+        }
+        .progress-container{
+            width: 100%;
+            .skills-progress-caption{
+                font-size:1.5em ;
+            }
+        }
+    }
+    .team-main-container{
+        width: 100%;
+        .team-card-container{
+            width: 46%;
+            border-radius: 2.8em;
+            padding: 1em;
+            .team-card-btn{
+                font-size: 1.2em;
+            }
+            .team-card-heading{
+                font-size: 1.4em;
+            }
+            .team-card-para{
+                font-size: 1.2em;
+            }
+        }
+    }
+    .partner-container{
+        width: 100%;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: center;
+        .partner-card-container{
+            width:45%;
+            padding: 1em;
+            height: 100%;
+            .partner-card-image{
+                width:50%;
+                margin-top: 2%;
+            }
+            .partner-card-para{
+                font-size: 20px;
+            }
+            .partner-card-heading{
+                font-size: 25px;
+            }
+            .partner-card-btn{
+                font-size:20px;
+            }
+        }
+    }   
+    .subscribe-container{
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-left: 0.1em;
+        .subscribe-input{
+            width:33%;
+        }
+        .subscribe-btn{
+            font-size: 15px;
+        }
+    } 
+    .contacts-heading{
+        text-align: center;
+        margin-left: 3%;
+        font-size: 3.5em;
+        font-weight: 500;
+    }
+    .contacts-para{
+        text-align: center;
+        margin-left: 3%;
+        font-size: 2.2em;
+        font-weight: 400;
+    }
+    .contacts-main-container{
+        width: 100%;
+        .contacts-card-container{
+            width:45%;
+            padding:1em;
+            .contacts-card-side-con{
+                width: 70%;
+                .contacts-card-heading{
+                    font-size: 2em;
+                }
+                .contacts-card-para{
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }    
+}
+@media (min-width:1024px){
+    .header-con{
+        width: 95%;
+    }
+    .header-con{
+    .header-row-left{
+        width:45%;
+        text-align: left;
+        padding: 2em;
+        align-self: center;
+        .header-heading{
+            font-weight: 500;
+            font-size: 4.5em;
+        }
+        .header-para{
+            font-size: 2em;
+        }
+        .header-btn{
+            border-radius: 3em;
+            font-weight: 600;
+            font-size: 1.3em;
+            // margin-left: 3%;
+        }
+     }
+     .header-row-right{
+         width:45%;
+        //  height: 48vh;
+        .header-image{
+            width:100%;
+            margin-top:3%;
+            // align-items: center;
+            // justify-content: center;
+        }
+      }
+    }
+    .cards-left-con{
+        width:47%;
+        .cards-left-heading{
+            font-size: 35px;
+        }
+        .cards-left-bottom-left-btn1{
+            font-size: 30px;
+        }
+        .cards-left-bottom-left-btn2{
+            font-size: 30px;
+        }
+        .cards-left-bottom-right-btn{
+            font-size: 35px;
+        }
+        .cards-left-bottom-con{
+            display: flex;
+            flex-direction: row;
+            margin-top: 1em;
+            padding: 1%;
+            justify-content: space-between;
+            .cards-left-bottom-left{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+    .cards-right-con{
+        width:47%;
+        // margin-right: 2%;
+        margin-bottom: 2%;
+        // margin-left: 2%;
+        height:100%;
+        text-align: left;
+        .cards-right-top-con{
+            margin-bottom: 2em;
+            padding:0.5em;
+            
+        }
+        .cards-right-top-para{
+            font-size: 30px; 
+            // padding:1%;
+            margin-bottom: 1.5em;
+        }
+        .cards-left-bottom-left-btn2{
+            font-size: 30px;
+        }
+    } 
+    .aboutus-heading{
+        font-size: 55px;
+    }
+    .aboutus-para{
+        font-size: 35px;
+    }
+    .features-card-container{
+        width:30%;
+        padding: 1em;   
+        margin-left: 1em; 
+        .features-card-image{
+            width:90%;           
+        } 
+    }
+    .features-heading{
+        text-align: left;
+        margin-left: 2em;
+    }
+    .features-card-para1{
+        font-size: 20px;
+    }
+    .features-card-para2{
+        font-size: 28px;
+    }
+    .features-card-heading{
+        font-size: 40px;
+    }
+    .features-card-btn{
+        font-size: 20px;
+    }
+    .our-skills-main-container{
+        width: 100%;
+        .our-skills-container{
+            width: 46%;
+            margin: 1em;
+            .our-skills-caption{
+                font-size: 3.5em;
+            }
+            .our-skills-description{
+                font-size: 1.4em;
+                margin-top: 1em;
+            }
+        }
+        .progress-container{
+            width: 46%;
+            margin: 1em;
+        }
+    }
+    .team-heading{
+         font-size: 1.2em;   
+         text-align: left;
+    }
+    .team-para{
+        font-size: 1em; 
+        text-align: left;  
+   }
+    .team-main-container{
+        width: 98%;   
+        margin:1em;
+        .team-card-container{
+            width: 31%;
+            border-radius: 3em;
+            margin:0.5em;
+            .team-card-para{
+                font-size: 1.4em;
+            }
+        }    
+    }
+    .image-inside-bottom-con{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .image-inside-bottom-btn-con{
+            text-align: left;
+            flex-wrap: wrap;
+            justify-self: left;
+            width: 50%;
+        }
+        .image-card-bottom-btn{
+            width: 50%;
+            margin-top: 1.2em;
+            text-align: end;
+        }    
+    }
+    .partner-container{
+        width: 100%;
+        .partner-card-container{
+            width:30%;
+            .partner-card-image{
+                width:50%;
+                margin-top: 2%;
+            }
+            .partner-card-para{
+                font-size: 25px;
+            }
+            .partner-card-heading{
+                font-size: 30px;
+            }
+            .partner-card-btn{
+                font-size:20px;
+            }
+        }
+    }      
+    .subscribe-container{
+        width: 70%;
+        flex-direction: row;
+        margin-left: 8em;
+        .subscribe-input{
+            width:33%;
+        }
+        .subscribe-heading{
+            font-size: 3.5em;
+        }
+        .subscribe-btn{
+            font-size: 15px;
+        }
+    }
+    .contacts-main-container{
+        width: 100%;
+        .contacts-card-container{
+            width:45%;
+            padding:2em;
+            .contacts-card-side-con{
+                width: 70%;
+                .contacts-card-heading{
+                    font-size: 2em;
+                }
+                .contacts-card-para{
+                    font-size: 1.5em;
+                    text-align: left;
+                }
+            }
+        }
+    }    
+}
+@media (min-width:1440px){
+    .header-row-left{
+        width:48%;
+        align-self: center;
+        text-align: left;
+        padding: 1em;
+        .header-heading{
+            font-size: 15em;
+        }
+        .header-para{
+            font-size: 3.55em;
+        }
+        .header-btn{
+            font-weight: 600;
+            font-size: 2.2em;
+        }
+     }
+     .header-row-right{
+         width:48%;
+        .header-image{
+            width:100%;
+            margin-top:3%;
+        }
+      }
+      .cards-left-con{
+        width:46%;
+        .cards-image{
+            width:90%;
+            padding:2%;
+            // border-radius: 10rem;
+        }
+        .cards-left-heading{
+            font-size: 2.3rem;
+
+        }
+    }
+    .cards-right-con{
+        width:46%;
+        // margin-right: 2%;
+        margin-bottom: 2%;
+        // margin-left: 2%;
+        height:100%;
+        text-align: left;
+    }
+    .cards-right-top-para{
+        font-size: 2.75em; 
+        // padding:1%;
+        margin-bottom: 1.5em;
+    }
+    .cards-left-bottom-con{
+        display: flex;
+        flex-direction: row;
+        // flex-wrap: wrap;
+        // margin-left: 3%;
+        padding: 3%;
+        // justify-content: space-between;
+        .cards-left-bottom-left{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+    .features-main-container{
+        width: 98%;
+    .features-card-container{
+        width:31%;
+        .features-card-para1{
+            font-size: 30px;
+        }
+        .features-card-para2{
+            font-size: 28px;
+        }
+        .features-card-heading{
+            font-size: 40px;
+        }
+        .features-card-btn{
+            font-size: 25px;
+        } 
+    }
+}
+    .team-main-container{
+        width: 98%;
+        .team-card-container{
+            width: 30%;
+        }
+        
+    }
+    .subscribe-container{
+        width: 75%;
+        flex-direction: row;
+        // justify-content: center;
+        // align-items: center;
+        margin-left: 11em;
+        // text-align: center;
+        .subscribe-input{
+            width:33%;
+            height:60%;
+            border: 0 ;
+            border-radius: 0.5em;
+            text-align: center;
+            padding: 0.5em 1em 0.5em 1em;
+        }
+        .subscribe-heading{
+            font-size: 3.5em;
+        }
+        .subscribe-btn{
+            width:7em;
+            height:40px;
+            border-radius: 2em;
+            font-size: 1em;
+            align-self: center;
+            transform: transform;
+            margin: 0.3em;
+        }
+    }
+}

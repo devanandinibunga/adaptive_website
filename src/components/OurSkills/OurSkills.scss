@@ -1,0 +1,69 @@
+.our-skills-main-container{
+    // width: 100%;
+    display: flex;
+    padding:2%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.our-skills-container{
+    box-sizing: border-box;
+    border-radius: 1em;
+    margin-bottom: 10%;
+    // text-align: center;
+}
+
+.our-skills-caption {
+    color: black;
+    // font-size: 1.125em;
+    font-weight: 500;
+}
+
+.our-skills-description{
+    color: black;
+    // font-size: 1.125em;
+}
+.progress-container{
+    box-sizing: border-box;
+    // margin-bottom: 10%;
+    // margin-top: 10em;
+    // width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.progress{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    // justify-content: flex-end;
+    // align-items: flex-end;
+    flex-wrap: wrap;
+    background-color: white;
+    // width: 100%;
+    // height: 20%;
+    // margin-top:1em;
+    margin-top: 7%;
+}
+
+.skills-progress-details-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.skills-progress-caption{
+    font-size: 1.75em;
+    // color: #464646;
+    font-weight: 500;
+    word-break: break-word;
+    word-wrap: break-word;
+    margin: 0%;
+}
+
+.progress-bar{
+    width: 100%;
+    font-size: 3vh;
+}

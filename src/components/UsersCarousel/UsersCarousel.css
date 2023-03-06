@@ -1,0 +1,22 @@
+.carousel-slide{
+    width:80%;
+    margin-top: 6%;
+    margin-left: 2%;
+}
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-left: 3%;
+    padding-left: 3%;
+}
+.carousel-image{
+    width:20%;
+    border-radius: 150px;
+}

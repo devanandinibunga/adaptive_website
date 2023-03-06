@@ -1,0 +1,31 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+.contacts-container{
+    width:100%;
+    height: 100%;
+    margin-top:6%;
+}
+.contacts-main-container{
+    display: flex;
+    flex-direction: row;
+    width:95%;
+    height: 100%;
+    margin-left: 3%;
+    border-radius: 30px;
+}
+.contacts-heading{
+    text-align: left;
+    margin-left: 3%;
+    font-size: 33px;
+    font-weight: 400;
+}
+.contacts-para{
+    text-align: left;
+    margin-left: 3%;
+    font-size: 25px;
+    font-weight: 400;
+}
+#tilt:hover{
+    transform: scale(1.1) rotate(-3deg);
+    /* background-color: #ffc107; */
+}

@@ -1,0 +1,43 @@
+.subscribe-main-con{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin:4%;
+    /* justify-content: center; */
+   
+}
+.subscribe-container{
+    display: flex;
+    background-color:#ffc107 ;
+    width: 70%;
+    border-radius: 30px;
+    height: 150px;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+}
+.subscribe-heading{
+    font-size: 35px;
+    font-family: "open-sans";
+}
+.subscribe-input{
+    width:30%;
+    height:30%;
+    border-radius: 10px;
+    margin-right: 2%;
+    /* margin-top: 2%; */
+    align-self: center;
+}
+.subscribe-btn{
+    width:150px;
+    height:40px;
+    border-radius: 30px;
+    font-size: 22px;
+    align-self: center;
+    transform: transform;
+}
+button:hover{
+    transform: scale(1.1) rotate(4deg);
+    background-color: #ffc107;
+}
